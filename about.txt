@@ -1,0 +1,15 @@
+This project entitled as "Smart Security Camera" can be used for detecting any motion or presence of human activity in front of camera.
+For Simplification and demonstration purpose a webcam is used, but for real life scenarios it can be implemented with other cameras' like CCTV, etc.
+Here in this project python programming language is being used with the help of OpenCV (Open Source Computer Vision) Library.
+This python code would send the user an e-mail with the invader's face picture attached to it, as soon as someone is detected in front of the camera.
+As soon as the user presses 'q' button on the keyboard, it would stop execution of the code.
+
+Haar Cascade
+Haar-based cascade classifier, is a very effective object detection method.
+It is a machine learning approach that consists on training the algorithm from a lot of positive and negative images.
+
+That is what we will be using here in this project.
+There are tons of different Haar Cascades already trained for developers, so we actually don't have to go through all this trouble.
+For this particular case, I am going to use a face-detector Haar Cascade Classifier.
+
+Note:- Make Sure all the files are present in same folder including the "haarcascade_frontalface_alt2.xml" file.
