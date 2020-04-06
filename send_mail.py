@@ -37,9 +37,9 @@ def send_mail(frame):
     # Create the jpg picture to attach.
     cv2.imwrite("project/intrude.jpg", frame)
 
-    gmail_user = 'tempmail.tm99@gmail.com'
-    gmail_password = 'qwerty@123'
-    recipient = 'm.42tushar99@gmail.com'
+    gmail_user = 'Enter_gmail_ID_here@gmail.com'
+    gmail_password = 'gmail_ID_password_comes_here'
+    recipient = 'Recipient_Email_ID_here@gmail.com'
     message = 'Hey! It appears that someone is at home!!!'
 
     msg = MIMEMultipart()
